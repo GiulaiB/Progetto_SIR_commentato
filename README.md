@@ -15,3 +15,17 @@ To run this programm follow the next step
 ```shell
 ./sir
 ```
+
+## Testing
+
+To compile this programm follow the next steps
+```shell
+g++ -c testing.cpp
+```
+```shell
+g++ -o sir testing.o
+```
+To run this programm follow the next step
+```shell
+./sir
+```
