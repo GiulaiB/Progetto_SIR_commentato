@@ -74,7 +74,7 @@ void disease::Disease::print() {
   int i = 0;
   auto tab = std::setw(15);
   std::cout << name_ << '\n';
-  std::cout << "Current value of R0: " << (tot_ * beta_) / gamma_ << '\n';
+  std::cout << "Current value of R0: " << (tot_ * beta_) / gamma_ << '\n'; //R0
   std::cout << tab << "Day" << tab << "Susceptible" << tab << "Infectuos" << tab
             << "Recovered" << '\n';
   for (auto const it : state_) {
