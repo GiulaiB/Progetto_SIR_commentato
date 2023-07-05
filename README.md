@@ -15,6 +15,10 @@ To run this programm follow the next step
 ```shell
 ./sir
 ```
+The data file will be in the folder. To take a look at it in the ubuntu terminal please insert
+```shell
+cat report.txt
+```
 
 ## Testing
 
