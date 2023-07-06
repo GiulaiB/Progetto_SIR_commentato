@@ -1,6 +1,5 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
-// Utilizziamo doctest 2.3.8, ultima versione disponibile al 24/06
+#include "doctest.h" ////doctest version is "2.4.11"
 #include <cassert>
 #include <cmath>
 #include <limits>
