@@ -8,7 +8,7 @@
 #include <string>
 #include "disease.hpp"
 
-//////////////////////////////////////evolution of the disease//////////////////////////////////////
+////////////////////////////////////evolution of the disease////////////////////////////////////
 
 State disease::Disease::evolve_(State const &begin) {
   auto end = State();
@@ -37,7 +37,7 @@ che descrive la condizione che sarebbe dovuta essere vera ma che non lo era, e p
 il programma.
 */
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
 //Creazione del primo elemento
 
 disease::Disease::Disease(std::string p, int n, double inf, double b, double y) : name_{p} {
@@ -47,7 +47,7 @@ disease::Disease::Disease(std::string p, int n, double inf, double b, double y) 
 
   tot_ = n;
   beta_ = b / tot_;
-  gamma_ = y * 0.1; //perchè 0.1?
+  gamma_ = y * 0.1;
   State state_0{(double)n - inf, inf, 0.}; //crea una struttura con i compartimenti {"s", "i", "r"}
   state_.push_back(state_0); //crea lo stato 0 e lo inserisce come primo elemento nel vettore stati
 }
