@@ -17,7 +17,7 @@ To run this programm follow the next step
 ```
 The data file will be in the folder. To take a look at it in the ubuntu terminal please insert
 ```shell
-cat report.txt
+cat epidemic.txt
 ```
 
 ## Testing
@@ -27,9 +27,9 @@ To compile this programm follow the next steps
 g++ -c testing.cpp
 ```
 ```shell
-g++ -o sir testing.o
+g++ -o sirtest testing.o
 ```
 To run this programm follow the next step
 ```shell
-./sir
+./sirtest
 ```
